@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.crm.vtiger.TestCase.Base.TC_37_SearchLeadByLeadNumber_Test"/>
+      <class name="com.crm.vtiger.TestCase.Base.TC_40_SearchLeadByCompanyName_Test"/>
+      <class name="com.crm.vtiger.TestCase.Base.TC_36_ConvertLeadtoOpportunity_Test"/>
+      <class name="com.crm.vtiger.TestCase.Base.TC_38_SearchLeadByLastName_Test"/>
+      <class name="com.crm.vtiger.TestCase.Base.TC_39_SearchLeadByFirstName_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

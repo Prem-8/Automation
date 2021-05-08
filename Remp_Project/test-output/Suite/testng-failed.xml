@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="T1(failed)">
+    <classes>
+      <class name="com.crm.vtiger.TestCase.Base.TC_36_ConvertLeadtoOpportunity_Test">
+        <methods>
+          <include name="convertLeadtoOpportunity"/>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.TestCase.Base.TC_36_ConvertLeadtoOpportunity_Test -->
+    </classes>
+  </test> <!-- T1(failed) -->
+  <test thread-count="5" parallel="tests" name="T5(failed)">
+    <classes>
+      <class name="com.crm.vtiger.TestCase.Base.TC_40_SearchLeadByCompanyName_Test">
+        <methods>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+          <include name="searchLeadByCompanyName"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.TestCase.Base.TC_40_SearchLeadByCompanyName_Test -->
+    </classes>
+  </test> <!-- T5(failed) -->
+  <test thread-count="5" parallel="tests" name="T4(failed)">
+    <classes>
+      <class name="com.crm.vtiger.TestCase.Base.TC_39_SearchLeadByFirstName_Test">
+        <methods>
+          <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="setUp"/>
+          <include name="searchLeadByFirstName"/>
+          <include name="tearDown"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.TestCase.Base.TC_39_SearchLeadByFirstName_Test -->
+    </classes>
+  </test> <!-- T4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

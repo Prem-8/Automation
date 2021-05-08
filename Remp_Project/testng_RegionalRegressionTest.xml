@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+  <test name="Test" preserve-order='true'>
+    <classes>
+      <class name="com.crm.vtiger.TestCase.Base.TC_36_ConvertLeadtoOpportunity_Test">
+          <methods>
+               <include name="convertLeadtoOpportunity"/>
+          </methods>
+      </class>   
+      <class name="com.crm.vtiger.TestCase.Base.TC_38_SearchLeadByLastName_Test">  
+          <methods>
+               <include name="searchLeadByLastName"/>
+          </methods>
+      </class>               
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

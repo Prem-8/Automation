@@ -1,0 +1,16 @@
+{  
+"browser":"chrome",
+"url":"http://localhost:8888",
+"username":"admin",
+"password":"admin",
+"salutation":"Mr.",
+"firstname":"Prem",
+"lastname":"Moorthy",
+"companyname":"Infosys",
+"searchforleadno":"Lead No",
+"searchforlastname":"Last Name",
+"searchforfirstname":"First Name",
+"searchforcompanyname":"Company",
+"duration":"6",
+"leadno":"LEA8"
+}
