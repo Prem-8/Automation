@@ -213,7 +213,7 @@ public class WebDriverUtility
 		
 		for(WebElement element : elements)
 		{
-			sleep(1000);
+			sleep(2000);
 			if(element.getText().equals(option))
 			{
 
