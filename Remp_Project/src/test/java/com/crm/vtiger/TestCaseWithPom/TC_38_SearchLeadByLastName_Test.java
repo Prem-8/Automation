@@ -17,6 +17,11 @@ public class TC_38_SearchLeadByLastName_Test extends BaseClass
 	@Test
 	public void searchLeadByLastName() throws Throwable
 	{
+		
+		System.out.println("Hello prem  4  ");
+
+		/*
+		
 		//Getting the Data from Json file
 		String salutation = fu.getDatafromJson("salutation");
 		String firstname = fu.getDatafromJson("firstname");
@@ -49,5 +54,8 @@ public class TC_38_SearchLeadByLastName_Test extends BaseClass
 		//verification
 		Assert.assertTrue(expData.equals(actualData));
 		Reporter.log("PASS :: Searched Lead's last name is Displayed",true);
+		
+		
+		*/
 	}
 }

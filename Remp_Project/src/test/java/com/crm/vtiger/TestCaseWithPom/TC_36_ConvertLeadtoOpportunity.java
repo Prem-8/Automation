@@ -16,6 +16,13 @@ public class TC_36_ConvertLeadtoOpportunity extends BaseClass
 	@Test
 	public void convertLeadtoOpportunity() throws Throwable
 	{
+		
+		
+		System.out.println("Hello prem  2  ");
+
+		
+		
+		/*
 		//Getting the Data from Json file
 		String salutation = fu.getDatafromJson("salutation");
 		String firstname = fu.getDatafromJson("firstname");
@@ -52,5 +59,6 @@ public class TC_36_ConvertLeadtoOpportunity extends BaseClass
 		Assert.assertTrue(orgName.contains(industryName));	
 		Reporter.log("PASS :: Organisation name is Displayed as per Expectation",true);
 		
+		*/
 	}
 }

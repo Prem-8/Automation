@@ -17,6 +17,11 @@ public class TC_37_SearchLeadByLeadNumber_Test extends BaseClass
 	@Test
 	public void searchLeadbyLeadNo() throws Throwable
 	{
+		
+		System.out.println("Hello prem  3  ");
+
+		
+		/*
 		//Getting the Data from Json file
 		String salutation = fu.getDatafromJson("salutation");
 		String firstname = fu.getDatafromJson("firstname");
@@ -52,7 +57,7 @@ public class TC_37_SearchLeadByLeadNumber_Test extends BaseClass
 
 
 
-
+	*/
 
 
 

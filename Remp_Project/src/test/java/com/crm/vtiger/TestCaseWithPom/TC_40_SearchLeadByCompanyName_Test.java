@@ -17,6 +17,13 @@ public class TC_40_SearchLeadByCompanyName_Test extends BaseClass
 	@Test
 	public void searchLeadByCompanyName() throws Throwable
 	{
+		
+		System.out.println("Hello prem  6  ");
+
+		
+		/*
+		
+		
 		//Getting the Data from Json file
 		String salutation = fu.getDatafromJson("salutation");
 		String firstname = fu.getDatafromJson("firstname");
@@ -49,5 +56,8 @@ public class TC_40_SearchLeadByCompanyName_Test extends BaseClass
 		//verification
 		Assert.assertTrue(expData.equals(actualData));
 		Reporter.log("PASS :: Searched Lead's company name is Displayed",true);
+		
+		
+		*/
 	}
 }

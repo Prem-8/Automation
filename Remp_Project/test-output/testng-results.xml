@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Searched Lead's company name is Displayed]]>
+      <![CDATA[PASS :: Searched Lead Number is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-06T09:50:40 PDT" name="Default suite" finished-at="2021-05-06T09:51:17 PDT" duration-ms="37137">
+  <suite started-at="2021-05-09T19:40:37 PDT" name="Default suite" finished-at="2021-05-09T19:41:30 PDT" duration-ms="52658">
     <groups>
     </groups>
-    <test started-at="2021-05-06T09:50:40 PDT" name="Default test" finished-at="2021-05-06T09:51:17 PDT" duration-ms="37137">
-      <class name="com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:50:40 PDT" name="configBS" finished-at="2021-05-06T09:50:40 PDT" duration-ms="14" status="PASS">
+    <test started-at="2021-05-09T19:40:37 PDT" name="Default test" finished-at="2021-05-09T19:41:30 PDT" duration-ms="52658">
+      <class name="com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:40:37 PDT" name="configBS" finished-at="2021-05-09T19:40:37 PDT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBT()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:50:40 PDT" name="configBT" finished-at="2021-05-06T09:50:40 PDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:40:37 PDT" name="configBT" finished-at="2021-05-09T19:40:37 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBT -->
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:50:40 PDT" name="configBC" finished-at="2021-05-06T09:50:43 PDT" duration-ms="2916" status="PASS">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:40:37 PDT" name="configBC" finished-at="2021-05-09T19:40:46 PDT" duration-ms="9297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,34 +29,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:50:43 PDT" name="setUp" finished-at="2021-05-06T09:50:49 PDT" duration-ms="6658" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:40:46 PDT" name="setUp" finished-at="2021-05-09T19:40:54 PDT" duration-ms="8085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchLeadByCompanyName()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:50:49 PDT" name="searchLeadByCompanyName" finished-at="2021-05-06T09:51:14 PDT" duration-ms="25204" status="PASS">
+        <test-method signature="searchLeadbyLeadNo()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:40:54 PDT" name="searchLeadbyLeadNo" finished-at="2021-05-09T19:41:26 PDT" duration-ms="31756" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Searched Lead's company name is Displayed]]>
+              <![CDATA[PASS :: Searched Lead Number is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- searchLeadByCompanyName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:51:14 PDT" name="tearDown" finished-at="2021-05-06T09:51:16 PDT" duration-ms="1888" status="PASS">
+        </test-method> <!-- searchLeadbyLeadNo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:41:26 PDT" name="tearDown" finished-at="2021-05-09T19:41:29 PDT" duration-ms="3040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:51:16 PDT" name="configAC" finished-at="2021-05-06T09:51:17 PDT" duration-ms="416" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:41:29 PDT" name="configAC" finished-at="2021-05-09T19:41:30 PDT" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAT()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:51:17 PDT" name="configAT" finished-at="2021-05-06T09:51:17 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:41:30 PDT" name="configAT" finished-at="2021-05-09T19:41:30 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAT -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test@78e117e3]" started-at="2021-05-06T09:51:17 PDT" name="configAS" finished-at="2021-05-06T09:51:17 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test@78e117e3]" started-at="2021-05-09T19:41:30 PDT" name="configAS" finished-at="2021-05-09T19:41:30 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.crm.vtiger.TestCaseWithPom.TC_40_SearchLeadByCompanyName_Test -->
+      </class> <!-- com.crm.vtiger.TestCaseWithPom.TC_37_SearchLeadByLeadNumber_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
