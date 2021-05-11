@@ -7,7 +7,7 @@ public class SampleTest
 	@Test
 	public void prem()
 	{
-		
+		System.out.println("Test Begins");
 		System.out.println("Hello prem  1  ");
 		
 		
